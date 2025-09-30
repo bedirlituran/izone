@@ -21,7 +21,7 @@ const xidmetler = [
 
 export default function Services() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-20">
+    <section className="max-w-6xl mx-auto px-6 py-20 ">
       <h2 className="text-3xl md:text-4xl font-extrabold text-center text-slate-900 mb-14">
         Xidmətlərimiz
       </h2>
