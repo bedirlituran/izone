@@ -2,11 +2,11 @@ import { Facebook, Instagram, Twitter, Linkedin, Phone, Mail } from "lucide-reac
 
 export default function Footer() {
   return (
-    <section className="bg-transparent border-t border-gray-200 mt-16">
+    <footer className="bg-white border-t border-gray-200 mt-16">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-10">
         {/* Logo & Social */}
         <div>
-          <div className="text-2xl font-bold text-pink-600">bossnet</div>
+          <div className="text-2xl font-bold text-pink-600">Izone</div>
           <div className="flex space-x-4 mt-6">
             <a href="#" className="text-gray-500 hover:text-pink-600 transition">
               <Twitter size={20} />
@@ -56,7 +56,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-gray-500 text-sm">
-          <p>Copyright © 2025 Boss Group MMC. All Rights Reserved.</p>
+          <p>Copyright © 2025 Izone Group MMC. All Rights Reserved.</p>
           <div className="flex items-center space-x-6 mt-4 md:mt-0">
             <div className="flex items-center space-x-2">
               <Phone size={16} />
@@ -64,11 +64,11 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail size={16} />
-              <span>sales@bossnet.az</span>
+              <span>sales@Izone.az</span>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
