@@ -44,7 +44,7 @@ const Why = () => {
         key={i}
         className="group relative bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 p-8 text-center hover:-translate-y-1"
       >
-        <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-pink-500 text-white text-3xl shadow-md group-hover:scale-110 transition-transform duration-300">
+        <div className="w-16 h-16 mx-auto flex items-center justify-center rounded-full  text-white text-3xl shadow-md group-hover:scale-110 transition-transform duration-300">
           {item.icon}
         </div>
 
