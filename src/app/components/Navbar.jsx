@@ -27,7 +27,7 @@ export default function Navbar() {
               İnternet
             </Link>
             <Link
-              href="/iptv"
+              href="/ip"
               className="block px-4 py-2 hover:bg-yellow-400 hover:text-black rounded-b-lg"
             >
               IP TV
